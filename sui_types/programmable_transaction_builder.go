@@ -4,8 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"strconv"
-	"sui-sdk/lib"
-	"sui-sdk/move_types"
+
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/move_types"
 
 	"github.com/fardream/go-bcs/bcs"
 	"github.com/mitchellh/hashstructure/v2"

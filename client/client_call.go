@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"strings"
-	"sui-sdk/lib"
-	"sui-sdk/sui_types"
-	"sui-sdk/types"
+
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/sui_types"
+	"github.com/pentagrambot/sui-sdk/types"
 )
 
 // NOTE: This copys the query limit from our Rust JSON RPC backend, this needs to be kept in sync!

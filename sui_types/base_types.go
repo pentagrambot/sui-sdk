@@ -1,8 +1,8 @@
 package sui_types
 
 import (
-	"sui-sdk/lib"
-	"sui-sdk/move_types"
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/move_types"
 )
 
 type SuiAddress = move_types.AccountAddress

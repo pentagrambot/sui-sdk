@@ -1,6 +1,6 @@
 package sui_types
 
-import "sui-sdk/lib"
+import "github.com/pentagrambot/sui-sdk/lib"
 
 const (
 	ObjectStartVersion = SequenceNumber(1)

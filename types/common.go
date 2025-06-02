@@ -3,7 +3,8 @@ package types
 import (
 	"fmt"
 	"math/big"
-	"sui-sdk/sui_types"
+
+	"github.com/pentagrambot/sui-sdk/sui_types"
 
 	"github.com/shopspring/decimal"
 )

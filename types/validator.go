@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"reflect"
 	"strings"
-	"sui-sdk/lib"
-	"sui-sdk/sui_types"
+
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/sui_types"
 )
 
 type StakeStatus = lib.TagJson[Status]

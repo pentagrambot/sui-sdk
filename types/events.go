@@ -1,6 +1,6 @@
 package types
 
-import "sui-sdk/sui_types"
+import "github.com/pentagrambot/sui-sdk/sui_types"
 
 type EventId struct {
 	TxDigest sui_types.TransactionDigest `json:"txDigest"`

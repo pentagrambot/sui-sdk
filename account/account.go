@@ -3,8 +3,9 @@ package account
 import (
 	"encoding/base64"
 	"encoding/hex"
-	"sui-sdk/crypto"
-	"sui-sdk/sui_types"
+
+	"github.com/pentagrambot/sui-sdk/crypto"
+	"github.com/pentagrambot/sui-sdk/sui_types"
 
 	"github.com/tyler-smith/go-bip39"
 	"golang.org/x/crypto/blake2b"

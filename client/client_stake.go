@@ -2,10 +2,11 @@ package client
 
 import (
 	"context"
-	"sui-sdk/lib"
-	"sui-sdk/sui_types"
-	"sui-sdk/sui_types/sui_system_state"
-	"sui-sdk/types"
+
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/sui_types"
+	"github.com/pentagrambot/sui-sdk/sui_types/sui_system_state"
+	"github.com/pentagrambot/sui-sdk/types"
 
 	"github.com/fardream/go-bcs/bcs"
 )

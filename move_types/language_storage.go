@@ -1,6 +1,6 @@
 package move_types
 
-import "sui-sdk/lib"
+import "github.com/pentagrambot/sui-sdk/lib"
 
 type StructTag struct {
 	Address    AccountAddress

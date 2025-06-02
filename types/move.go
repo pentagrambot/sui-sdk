@@ -4,7 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"strings"
-	"sui-sdk/sui_types"
+
+	"github.com/pentagrambot/sui-sdk/sui_types"
 )
 
 type ResourceType struct {

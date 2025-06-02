@@ -1,6 +1,6 @@
 package sui_types
 
-import "sui-sdk/move_types"
+import "github.com/pentagrambot/sui-sdk/move_types"
 
 const (
 	StakingPoolModuleName = move_types.Identifier("staking_pool")

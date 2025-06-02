@@ -1,9 +1,9 @@
 package sui_types
 
 import (
-	"sui-sdk/lib"
-	"sui-sdk/move_types"
-	"sui-sdk/sui_protocol"
+	"github.com/pentagrambot/sui-sdk/lib"
+	"github.com/pentagrambot/sui-sdk/move_types"
+	"github.com/pentagrambot/sui-sdk/sui_protocol"
 )
 
 type TransactionData struct {

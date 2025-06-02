@@ -8,8 +8,9 @@ import (
 	"fmt"
 	"hash"
 	"reflect"
-	"sui-sdk/crypto"
-	"sui-sdk/lib"
+
+	"github.com/pentagrambot/sui-sdk/crypto"
+	"github.com/pentagrambot/sui-sdk/lib"
 
 	"github.com/fardream/go-bcs/bcs"
 	"golang.org/x/crypto/blake2b"

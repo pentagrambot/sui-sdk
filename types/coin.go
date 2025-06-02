@@ -4,7 +4,8 @@ import (
 	"errors"
 	"math/big"
 	"sort"
-	"sui-sdk/sui_types"
+
+	"github.com/pentagrambot/sui-sdk/sui_types"
 )
 
 const SUI_COIN_TYPE = "0x2::sui::SUI"
